@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(15,10,15);
+    color: white;
+}
+
+/* Here is the containers */
+.container{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color:rgb(104,43,135);
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.529);
+    border-radius: 15px;
+}
+
+.content{
+    margin-left: 15%;
+}
+
+.title{
+    padding-top: 20px;
+}
+/* Here is the text (Dev_) span */
+span{
+    padding: 4px;
+    background-color: orange;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.508);
+}
+
+/* Converter container */
+.converter-container{
+    margin-top: 50px;
+    
+    padding-right: -60px;
+
+}
+
+.sub-title{
+    margin-left: 12px;
+}
+
+input{
+    margin-top: 10px;
+    width: 85%;
+    height: 20px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 5px 5px 5px black;
+}
+
+button{
+    width: 40%;
+    height: 30px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 62px;
+    border-style: none;  
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    
+
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    width: 52px;
+    margin-top: 50px;
+    margin-left: 43%;
+    padding-right: -30px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+/* Result */
+
+#result{
+   
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+/* Credit */
+
+.credit{
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
