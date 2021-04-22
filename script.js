@@ -9,5 +9,5 @@ function convert(){
     let valueReais = valueDolarNumber * 5.51
     let valueReaisDecimal = valueReais.toFixed(2)
     console.log(valueReaisDecimal)
-    result.innerHTML = `$${valueDolarNumber} Dolars = R$${valueReaisDecimal}`
+    result.innerHTML = `$${valueDolarNumber.toFixed(2)} Dolars = R$${valueReaisDecimal}`
 }
